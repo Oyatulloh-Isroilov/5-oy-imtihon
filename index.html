@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>movie.com</title>
+
+    <!-- cdnJs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- index css -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- fonts css -->
+    <link rel="stylesheet" href="./css/font.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <div class="container">
+                <h1>Mine <span>Stax</span></h1>
+            </div>
+        </div>
+
+        <div class="accauntMenu">
+                <a href="./htmls/login.html">Sign up</a>
+            <a href="./htmls/register.html">Log in</a>
+        </div>
+        <div class="searchContainer">
+            <div class="searchElement">
+                <h3>Search Movie</h3>
+                <input type="text" id="movieSearchBox" placeholder="Kino nomini kiriting" class="formControl"
+                    onkeyup="findMovies()">
+                <div class="searchList" id="searchList">
+                    <!-- <div class="searchListItem"> -->
+                    <!-- <div class="searchItemThumbnail"> -->
+                    <!-- <img src="./images/marvel.jpg" alt="marvel"> -->
+                    <!-- </div> -->
+                    <!-- <div class="searchItemInfo"> -->
+                    <!-- <h3>Marvel Avengers</h3> -->
+                    <!-- <p>2012</p> -->
+                    <!-- </div> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="resultContainer">
+                <div class="resultGrid" id="resultGrid">
+                    <!-- <div class="moviePoster">
+                        <img src="./images/marvel.jpg" alt="marvel">
+                    </div>
+                    <div class="movieInfo">
+                        <h3 class="movieTitle">Marvel Avengers 1</h3>
+                        <ul class="movieMiscInfo">
+                            <li class="year">Year: 2012</li>
+                            <li class="rated">Ratings: PG-13</li>
+                            <li class="released">Released: 23 April 2012</li>
+                        </ul>
+                        <p class="genre"> <b>Genre:</b>Action-Adventure, Fight, shooter</p>
+                        <p class="writer"><b>Writer</b>Stan Lee</p>
+                        <p class="actors"><b>Actors:</b>Scarlett Johansson, Robert Downey Jr, Chris Evans,</p>
+                        <p class="plot"><b>Plot:</b>Marvel's The Avengers (classified under the name Marvel Avengers
+                            Assemble in the United Kingdom and Ireland), or simply The Avengers, is a 2012
+                            American superhero film based on the Marvel Comics superhero team of the same name.</p>
+                        <p class="language"><b>Language: </b>English </p>
+                        <p class="awards"><b><i class="fa-solid fa-award"></i></b>Nominated for 1 Oscar</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
